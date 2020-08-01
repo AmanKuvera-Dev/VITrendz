@@ -63,3 +63,15 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+
+
+/*  
+
+-------------------------------
+-----------------------------
+Starting smart navigation here
+*/
+
+
+var smartNav = document.getElementsByClassName('.smart-nav-button');

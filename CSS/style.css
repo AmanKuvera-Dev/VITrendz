@@ -22,13 +22,136 @@ body{
      text-decoration: none;
     color:white !important;
 }
+
+.navbar-wrapper .container .bg-dark{
+    background: transparent !important;
+    transition:  750ms ease;
+    
+}
+
+/*
+.navbar-wrapper .container .bg-dark.scrolled{
+    background: #0C2D48!important;
+    
+    
+}
+*/
+
+
 .navbar-wrapper{
-    position: fixed;
+    position: absolute;
     top:0;
     right:0;
     left:0;
     z-index: 20;
     margin-top:15px;
+}
+
+.smart-nav-button{
+    position:fixed;
+    z-index: 100;
+    
+}
+
+.smart-nav-button1{
+    position:fixed;
+    z-index: 99;
+    height: 100%;
+    width:100%;
+    
+}
+
+.smart-button{
+    display: block;
+    border-radius: 50%;
+    height:60px;
+    width: 60px;
+    padding:6px 7px 3px 0px;
+    outline: none !important;
+    border:solid #B1D4E0 2px;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+    display:none;
+    background: #004369;
+    transform: matrix3d(0)
+    
+}
+
+.smart-logo{
+    height: 40px;
+    width: 40px;
+}
+
+.smart-button.visible{
+    display:block;
+    animation-duration: .6s;
+    
+    animation-iteration-count: 2;
+    animation-name: example;
+
+}
+
+@keyframes example {
+    50%  {bottom:130px; transform: rotate3d(0, 1, 0, 180deg)}
+
+    100%  {bottom:30px; transform: rotate3d(0)}
+}
+
+.smart-cont{
+    position:absolute;
+    left:80%;
+    top: 60%;
+    width:inherit;
+    background-color: #004369!important;
+    margin: 0;
+    opacity: 0.7;
+    width: 240px;
+    border-radius: 10px 10px 40px 10px;
+    display:none
+}
+
+@media(max-width:938px)
+{
+    .smart-cont.select{
+    position:absolute;
+    left:70% !important;
+    top: 55%;
+    width:inherit;
+    background-color: #004369!important;
+    margin: 0
+}
+
+}
+
+@media(max-width:618px)
+{
+    .smart-cont.select{
+    position:absolute;
+    left:60% !important;
+    top: 55%;
+    width:inherit;
+    background-color: #004369!important;
+    margin: 0
+}
+
+}
+
+.smart-cont.select{
+    display:block;
+    position:absolute;
+    left:80%;
+    top: 55%;
+    width:inherit;
+    background-color: #004369!important;
+    margin: 0;
+    opacity: 0.7;
+    width: 240px;
+    border-radius: 10px 10px 40px 10px;
+}
+
+.smart-cont.hide{
+    display:none;
 }
 
 .navbar-brand{
@@ -406,4 +529,7 @@ footer{
 
     margin-top:4px;
 }
+
+
+
 
