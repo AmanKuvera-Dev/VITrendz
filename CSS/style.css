@@ -12,10 +12,10 @@ html{
 
 body{
     padding-bottom:20px;
+    padding-top: 0px;
     color: #5a5a5a;
     height: 100%;
     width:100%;
-    margin:0px;
 }
 
 .nav-link{
@@ -61,81 +61,8 @@ body{
     
 }
 
-.smart-button{
-    display: block;
-    border-radius: 50%;
-    height:60px;
-    width: 60px;
-    padding:6px 7px 3px 0px;
-    outline: none !important;
-    border:solid #B1D4E0 2px;
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-    display:none;
-    background: #004369;
-    transform: matrix3d(0)
-    
-}
 
-.smart-logo{
-    height: 40px;
-    width: 40px;
-}
 
-.smart-button.visible{
-    display:block;
-    animation-duration: .6s;
-    
-    animation-iteration-count: 2;
-    animation-name: example;
-
-}
-
-@keyframes example {
-    50%  {bottom:130px; transform: rotate3d(0, 1, 0, 180deg)}
-
-    100%  {bottom:30px; transform: rotate3d(0)}
-}
-
-.smart-cont{
-    position:absolute;
-    left:80%;
-    top: 60%;
-    width:inherit;
-    background-color: #004369!important;
-    margin: 0;
-    opacity: 0.7;
-    width: 240px;
-    border-radius: 10px 10px 40px 10px;
-    display:none
-}
-
-@media(max-width:938px)
-{
-    .smart-cont.select{
-    position:absolute;
-    left:70% !important;
-    top: 55%;
-    width:inherit;
-    background-color: #004369!important;
-    margin: 0
-}
-
-}
-
-@media(max-width:618px)
-{
-    .smart-cont.select{
-    position:absolute;
-    left:60% !important;
-    top: 55%;
-    width:inherit;
-    background-color: #004369!important;
-    margin: 0
-}
-
-}
 
 .smart-cont.select{
     display:block;
@@ -151,9 +78,6 @@ body{
     padding-left:40px;
 }
 
-.smart-cont.hide{
-    display:none;
-}
 
 .navbar-brand{
     color:white !important;
@@ -201,6 +125,7 @@ body{
     justify-content: center;
       background: #333 url('') no-repeat center center / cover;
   color: #ccc;
+    margin-top: 0px!important;
     
 }
 
