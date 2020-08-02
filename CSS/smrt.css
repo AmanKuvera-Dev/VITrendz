@@ -61,7 +61,11 @@ input[type="image"]
     
 }
 
-
+@media(max-width:480px){
+    .posi{
+        z-index: 500;
+    }
+}
 .smart-button.visible{
     display:block;
     animation-duration: .6s;
