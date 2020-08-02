@@ -66,12 +66,36 @@ function init() {
 
 
 
-/*  
-
--------------------------------
------------------------------
-Starting smart navigation here
-*/
 
 
-var smartNav = document.getElementsByClassName('.smart-nav-button');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
