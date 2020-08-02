@@ -18,6 +18,7 @@ input[type="image"]
     bottom:5% !important;
    right:5% !important;
     display: block;
+    z-index: 50 !important;
 
 }
 
@@ -38,7 +39,8 @@ input[type="image"]
 }
 
 .dropdown-menu{
-    background-color: #004369 !important
+    background-color: #004369 !important;
+        z-index: 50 !important;
 }
 
 .smart-button{
@@ -54,7 +56,8 @@ input[type="image"]
       right: 30px;
     display:none;
     background: #004369;
-    transform: matrix3d(0)
+    transform: matrix3d(0);
+    z-index: 50 !important;
     
 }
 
@@ -62,7 +65,7 @@ input[type="image"]
 .smart-button.visible{
     display:block;
     animation-duration: .6s;
-    
+    z-index: 50 !important;
     animation-iteration-count: 2;
     animation-name: example;
 
