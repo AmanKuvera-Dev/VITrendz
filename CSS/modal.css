@@ -31,6 +31,13 @@
     
 }
 
+@media(max-width:430px & max-height:640px){
+    .modal{
+        max-width: 70%;
+        max-height: 65%;
+    }
+}
+
 .modal-header .title {
   font-size: 1.25rem;
   font-weight: bold;
