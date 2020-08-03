@@ -11,11 +11,13 @@ const qb2 = document.getElementById('qb2Open')
 const cab = document.getElementById('cabOpen')
 const bod = document.getElementById('modBody')
 const modTitle = document.getElementById('modTitle')
+const modBtn = document.getElementById('modLink')
 
 faculty.onclick = ()=>
     {
         bod.innerHTML="This is for Faculty"
         modTitle.innerHTML = "Faculty Rating"
+    
     }
 
 question.onclick = ()=>{
@@ -31,6 +33,7 @@ lab.onclick = ()=>
     {
         bod.innerHTML="This is for Lab"
         modTitle.innerHTML = "Lab Records"
+    modBtn.href = "https://www.vitrendz.tech/lab"
     }
 qb2.onclick = ()=>
     {

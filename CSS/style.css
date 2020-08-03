@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
 
+*{
+    outline: none !important;
+       
+}
 html{
     scroll-behavior: smooth;
 }
@@ -388,8 +392,9 @@ footer{
 }
 
 .img3{
+    margin-top: 5% !important;
     width:200px !important;
-    height:190px !important;
+    height:185px !important;
 }
 
 .img-area img{
@@ -401,7 +406,8 @@ footer{
     background-color: #E5DDC8;
     padding:10%;
     text-align: center;
-    border-radius:20px
+    border-radius:20px;
+    border:solid #d3d3d3 2px !important;
 }
 
 .img-text h2{
@@ -432,6 +438,9 @@ footer{
     background-color: black !important;
 }
 
+#specialh2{
+    font-size: 24px !important;
+}
 .parallex-div{
     height: 550px;
     width:100%;
