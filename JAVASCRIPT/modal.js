@@ -15,32 +15,32 @@ const modTitle = document.getElementById('modTitle')
 faculty.onclick = ()=>
     {
         bod.innerHTML="This is for Faculty"
-        modTitle = "Faculty Rating"
+        modTitle.innerHTML = "Faculty Rating"
     }
 
 question.onclick = ()=>{
         bod.innerHTML="This is for Question Bank"
-        modTitle = "Question Bank"
+        modTitle.innerHTML = "Question Bank"
     }
 resell.onclick = ()=>
     {
         bod.innerHTML="This is for Buy and Resell"
-        modTitle = "Buy and Resell"
+        modTitle.innerHTML = "Buy and Resell"
     }
 lab.onclick = ()=>
     {
         bod.innerHTML="This is for Lab"
-        modTitle = "Lab Records"
+        modTitle.innerHTML = "Lab Records"
     }
 qb2.onclick = ()=>
     {
         bod.innerHTML="This is for extra question bank"
-        modTitle = "Question Bank"
+        modTitle.innerHTML = "Question Bank"
     }
 cab.onclick = ()=>
     {
         bod.innerHTML="This is for Cab"
-        modTitle = "Share A Cab"
+        modTitle.innerHTML = "Share A Cab"
     }
 
 
