@@ -478,8 +478,68 @@ footer{
 }
 
 
+#msgServices{
+        padding-top:30px;
+    padding-right:10px;
+    padding-bottom:0px;
+    padding-left:10px;
+    position:relative;
+    text-align: center;
+    border-top:solid 2px #d3d3d3;
+    border-left: solid 3px black;
+    border-radius: 20px;
+    margin-top: 40px
+}
+
+.msgServicesTitle{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.msgBody{
+    padding-top:20px;
+    padding-right:10px;
+    padding-bottom:40px;
+    padding-left:10px;
+    position:relative;
+}
+
+.madeWithLove{
+    font-weight: 500
+}
+.madeWithLove i{
+    color:red
+}
+
+blockquote {
+    font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+line-height: 1.45;
+color: #383838;
+}
+
+.firstLetter{
+    font-size: 3rem !important;
+}
 
 
+blockquote::before {
+content: "\201C";
+color: #7a7a7a;
+    font-size: 3.5rem;
+}
+
+#servicesCite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+
+blockquote::after {
+    content: "\201D";
+}
 
 
 
