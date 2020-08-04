@@ -242,14 +242,18 @@ footer{
 }
 
 
-
 .service-cover{
     padding-top:100px;
     padding-right:10px;
     padding-bottom:100px;
     padding-left:10px;
     position:relative;
+    opacity: 1!important;
+    background-color: #B1D4E0;
+    
 }
+
+
 
 .services-heading{
     margin-bottom: 54px;
@@ -408,7 +412,11 @@ footer{
     padding:10%;
     text-align: center;
     border-radius:20px;
-    border:solid #d3d3d3 2px !important;
+    border:solid white 2px !important;
+}
+
+.single-testi:hover{
+      background-color: whitesmoke;  
 }
 
 .img-text h2{
@@ -488,12 +496,15 @@ footer{
     padding-left:10px;
     position:relative;
     text-align: center;
-    border-top:solid 2px #d3d3d3;
+    border-top:solid 2px #A9A9A9;
     border-left: solid 3px #A9A9A9;
     border-radius: 20px;
     margin-top: 40px;
+    background-color: #fafafa;
     
 }
+
+
 
 
 .msgServicesTitle{
