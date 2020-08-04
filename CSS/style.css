@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 *{
     outline: none !important;
@@ -498,9 +498,10 @@ footer{
 
 .msgServicesTitle{
     font-size: 1rem;
-    font-weight: 700;
+    
     color: #0C2D48 !important;
-    font-family: 'Amatic SC', cursive;
+    font-weight: 700 !imporant;
+    font-family: 'Acme', sans-serif;
 }
 
 .msgBody{
@@ -515,7 +516,7 @@ footer{
 .madeWithLove{
     font-weight: 500;
     color: #2E8BC0 !important;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Acme', sans-serif;
 }
 .madeWithLove i{
     color:red
