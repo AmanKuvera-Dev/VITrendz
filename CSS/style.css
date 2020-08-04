@@ -200,6 +200,21 @@ body{
     left:0
 }
 
+.services-area-bg1{
+    background-image: url(image/bg123Artboard%201.png);
+}
+
+#services-full-area{
+    position: relative !important;
+    object-fit: cover!important;
+    background-repeat:round !important;
+    max-height:100% !important;
+    max-width:100% !important;
+    margin:0 !important;
+    background-size: contain !important;
+    
+
+}
 
 .carousel .carousel-item{
     height: 500px;
@@ -249,7 +264,7 @@ footer{
     padding-left:10px;
     position:relative;
     opacity: 1!important;
-    background-color: #B1D4E0;
+
     
 }
 
@@ -361,7 +376,9 @@ footer{
     left:0
 }*/
 
-
+.opac{
+    opacity:1 !important;
+}
 
 .section-padding{
     padding: 60px 0;
