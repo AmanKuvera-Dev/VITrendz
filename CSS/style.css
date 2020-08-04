@@ -477,7 +477,9 @@ footer{
     outline: none;
 }
 
-
+#impReq{
+    color:#DB1F48 !important;
+}
 #msgServices{
         padding-top:30px;
     padding-right:10px;
@@ -486,14 +488,18 @@ footer{
     position:relative;
     text-align: center;
     border-top:solid 2px #d3d3d3;
-    border-left: solid 3px black;
+    border-left: solid 3px #A9A9A9;
     border-radius: 20px;
-    margin-top: 40px
+    margin-top: 40px;
+    
 }
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&display=swap');
 
 .msgServicesTitle{
     font-size: 1rem;
     font-weight: 700;
+    color: #0C2D48 !important;
+    font-family: 'Amatic SC', cursive;
 }
 
 .msgBody{
@@ -502,10 +508,13 @@ footer{
     padding-bottom:40px;
     padding-left:10px;
     position:relative;
+    font-weight: 500!important;
 }
 
 .madeWithLove{
-    font-weight: 500
+    font-weight: 500;
+    color: #2E8BC0 !important;
+    font-family: 'Amatic SC', cursive;
 }
 .madeWithLove i{
     color:red
