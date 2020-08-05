@@ -222,9 +222,39 @@ body{
 
 @media(max-width:500px)
 {
-    .circle-posi1{
-        display:none !important;
+    .circle-posi{
+        top:-2%;
+        right:0;
+        left:30%;
+        bottom:0;
+        margin:0;
     }
+    
+    .circle-posi1{
+        position:absolute;
+    top:78% !important;
+    right:0 !important;
+    left:-90 !important;
+    bottom:0;
+    margin:0;
+    display:block;
+        
+    }
+    
+
+    
+    #circle1-posi{
+    position:absolute;
+    top:-4%;
+    right:0;
+    left:30% !important;
+    bottom:0;
+    margin:0;
+    overflow:hidden !important;
+    display: block;
+    
+}
+
 }
 
 #circle1-posibig{
@@ -257,6 +287,7 @@ body{
     display: block;
     
 }
+
 
 .circle-posi1{
       position:absolute;
@@ -523,7 +554,7 @@ footer{
 }
 
 .single-testi:hover{
-      background-image: linear-gradient(rgba(219,31,72,0.6), rgba(229,221,200,0.8),rgba(177,212,224,0.7),rgba(42,167,208,0.8));  
+      background-image: linear-gradient(to bottom right, rgba(219,31,72,0.6), rgba(229,221,200,0.8),rgba(177,212,224,0.7),rgba(42,167,208,0.8));  
 }
 
 .img-text h2{
@@ -612,7 +643,7 @@ footer{
 }
 
 #msgServices:hover{
-     background-image: linear-gradient(rgba(219,31,72,0.4), rgba(229,221,200,0.8),rgba(177,212,224,0.7),rgba(42,167,208,0.4)); 
+     background-image: linear-gradient(to bottom right,rgba(219,31,72,0.4), rgba(229,221,200,0.8),rgba(177,212,224,0.7),rgba(42,167,208,0.4)); 
 }
 
 
