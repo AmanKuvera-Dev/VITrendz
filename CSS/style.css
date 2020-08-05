@@ -201,7 +201,10 @@ body{
 }
 
 .services-area-bg1{
-    background-image: url(image/newArtboard%201.png);
+    
+    background-image: linear-gradient(to bottom right,rgba(219,31,72,0.6), rgba(229,221,200,0.8),rgba(177,212,224,0.7),rgba(42,167,208,0.8));
+        
+    z-index: 10
 }
 
 #services-full-area{
@@ -213,7 +216,34 @@ body{
     margin:0 !important;
     background-size: contain !important;
         background-repeat:no-repeat;
+    
 
+}
+
+@media(max-width:500px)
+{
+    .circle-posi1{
+        display:none !important;
+    }
+}
+
+#circle1-posibig{
+    position:absolute;
+    top:35%;
+    right:0;
+    left:35%;
+    bottom:0;
+    margin:0;
+    overflow:hidden !important;
+    display: block;
+    
+}
+
+.circlebig{
+    height:1000px;
+    width:1000px;
+    opacity: 0.8;
+    animation: zoomEffect 4s infinite;
 }
 
 #circle1-posi{
@@ -224,6 +254,7 @@ body{
     bottom:0;
     margin:0;
     overflow:hidden !important;
+    display: block;
     
 }
 
@@ -234,12 +265,14 @@ body{
     left:-12%;
     bottom:0;
     margin:0;
+    display:block;
 }
 .circle1{
     height:500px;
     width:500px;
     opacity: 0.6;
-    animation: zoomEffect 4s infinite;
+    animation: zoomEffect 3s infinite;
+    
 }
 
 .circle-posi2{
@@ -250,6 +283,7 @@ body{
     bottom:0;
     margin:0;
     overflow:hidden !important;
+    display:block;
     
 }
 
@@ -257,8 +291,7 @@ body{
     height:800px;
     width:800px;
     opacity: 0.7;
-    animation: zoomEffect 4s infinite;
-    color:black;
+    animation: zoomEffect 5s infinite;
     overflow: hidden !important
 }
 
@@ -267,9 +300,9 @@ body{
 }
 
 @keyframes zoomEffect {
-    0% {transform: scale(1)}
-    50% {transform: scale(1.2); overflow: hidden;}
-    100% {transform: scale(1)}
+    0% {transform: scale(1);overflow: hidden !important;}
+    50% {transform: scale(1.2);overflow: hidden !important; }
+    100% {transform: scale(1);overflow: hidden !important;}
 }
 
 
