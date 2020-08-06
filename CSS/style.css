@@ -776,8 +776,38 @@ blockquote::after {
     padding-left: 15px 
 }
 
+
+.msgMotto{
+    margin-top: 80px;
+    text-align: left;
+    border-left: solid 2px white;
+    padding-left: 15px 
+}
+
 .pClass{
     text-align: justify;
+}
+
+.misVis{
+    margin-top: 80px;
+}
+
+.mission h4{
+    border: solid 2px white;
+    padding:5px;
+    display: block
+}
+
+.vision h4{
+    border: solid 2px white;
+    padding:5px;
+     display: block
+}
+
+@media(max-width:500px){
+    .mission{
+        margin-top: 30px;
+    }
 }
 
 
