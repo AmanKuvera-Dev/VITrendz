@@ -17,6 +17,7 @@
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
     box-shadow: 3px 3px 5px black !important;
+    overflow-y: scroll !important;
 }
 
 .modal-header {
@@ -58,6 +59,7 @@
   padding: 10px 15px;
     z-index: 502     !important;
     text-align: justify-all !important;
+        
 }
 
 #overlay {
@@ -86,6 +88,7 @@
     border: 2px solid white !important;
     outline:none !important;
     
+    
 } 
 
 #modLink{
@@ -97,6 +100,8 @@
      position: absolute;
     left:50%;
     transform: translate(-50%, -50%);
+    margin-top:30px !important;
+    margin-bottom:10px !important
 }
 
 .shadow{
