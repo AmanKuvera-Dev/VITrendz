@@ -820,5 +820,55 @@ blockquote::after {
     }
 }
 
+.trendzSocial{
+    padding-top:100px;
+    padding-right:10px;
+    padding-bottom:100px;
+    padding-left:10px;
+    position:relative;
+}
 
+.SocialHeading{
+    text-align: center;
+}
+
+.socialCover{
+    background: url(image/asdgArtboard%201.png);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden
+}
+
+@media(max-width:500px)
+{
+    .socialCover{
+        background: url(image/asdg1Artboard%201.png)
+    }
+}
+
+@media(min-width:501px) and (max-width:660px){
+    .socialCover{
+        background: url(image/asdg2Artboard%201.png)
+    }
+}
+
+.socialBody{
+    margin-top: 10%
+}
+
+.socialpara1{
+    font-size: 22px;
+    text-align: center;
+}
+
+.socialpara1 ul{
+    list-style-type: none;
+    
+}
+
+.socialpara1 ul li{
+ display: block
+     border: solid 2px gray;
+}
 
