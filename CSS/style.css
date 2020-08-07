@@ -737,10 +737,17 @@ blockquote::after {
 
 #ABOUT-US{
     background-image: linear-gradient(to bottom left,rgba(42,167,208,0.8),rgba(177,212,224,0.7),rgba(229,221,200,0.6),rgba(229,221,200,0.5));
+    
 }
 
 
-
+.mainCover{
+    background: url(image/abt1.png);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 .AboutUsSection{
     align-content: center;
@@ -748,7 +755,6 @@ blockquote::after {
      
     
 }
-
 
 .aboutUsTitle1 h6{
     font-family: ;
@@ -760,6 +766,9 @@ blockquote::after {
     font-family: ;
     font-weight: 700;
     color:#0C2D48 ;
+}
+.aboutUsBody{
+    margin-top: 20%
 }
 
 .what{
@@ -789,7 +798,8 @@ blockquote::after {
 }
 
 .misVis{
-    margin-top: 80px;
+    margin-top: 40%;
+    
 }
 
 .mission h4{
