@@ -868,7 +868,65 @@ blockquote::after {
 }
 
 .socialpara1 ul li{
- display: block
-     border: solid 2px gray;
+    align-items: center
+}
+
+.btn1{
+    width:400px
+}
+
+@media(max-width:635px) and (min-width:420px)
+{
+    .btn1{
+    width:250px
+    }
+}
+
+
+
+
+.insta{
+    color:#d52e81 ;
+    border-color:#d52e81; 
+}
+
+.insta:hover{
+    background-color:#d52e81; 
+    border-color:#d52e81; 
+}
+
+.fb{
+   color:#03248d ;
+    border-color:#03248d;  
+}
+
+.fb:hover{
+   background-color:#03248d ;
+    border-color:#03248d;  
+}
+
+
+.tube{
+    color:#f70002;
+    border-color:#f70002; 
+}
+.tube:hover{
+    background-color:#f70002;
+    border-color:#f70002; 
+}
+
+.whats{
+    color:#3ebe4f;
+    border-color:#3ebe4f; 
+}
+
+.whats:hover{
+    background-color:#3ebe4f;
+    border-color:#3ebe4f; 
+}
+
+
+.socialpara1 ul li{
+     margin:10px;
 }
 

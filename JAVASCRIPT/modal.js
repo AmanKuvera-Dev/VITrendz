@@ -11,7 +11,17 @@ const qb2 = document.getElementById('qb2Open')
 const cab = document.getElementById('cabOpen')
 const bod = document.getElementById('modBody')
 const modTitle = document.getElementById('modTitle')
+
 const modBtn = document.getElementById('modLink')
+
+const socTitle = document.getElementById('socTitle')
+const inst = document.getElementById('socI')
+const face = document.getElementById('socF')
+const tele = document.getElementById('socT')
+const you = document.getElementById('socY')
+const what = document.getElementById('socW')
+
+
 
 document.getElementById('mainFaculty').href = "https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fwww.vitconnex.com%2Fauth%2Fgoogle%2Fcallback&scope=profile%20email&client_id=1615070795-9m0rkdaa01jggipf5qsrt9k63kk0k2qt.apps.googleusercontent.com&flowName=GeneralOAuthFlow"
 
@@ -63,6 +73,16 @@ cab.onclick = ()=>
     modBtn.href = "https://www.vitrendz.tech/share"
     }
 
+inst.onclick = () =>
+{
+    socTitle.innerHTML = "VITrendz Instagram"
+}
+
+face.onclick = () =>
+{
+    socTitle.innerHTML = "VITrendz Facebook"
+}
+
 
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
@@ -96,3 +116,8 @@ function closeModal(modal) {
   modal.classList.remove('active')
   overlay.classList.remove('active')
 }
+
+
+
+
+

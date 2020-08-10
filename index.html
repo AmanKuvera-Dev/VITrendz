@@ -424,6 +424,22 @@ Thank you!
     </div>
 </section>
 
+<!--parallex division 2 strts here-->
+
+       <div class="parallax-window parallex-div" data-parallax="scroll" data-image-src="https://amankuvera-dev.github.io/VITrendz//CSS/image/para1.png">
+        
+        <div class="row para1-text">
+        <div  class="col-md-6 offset-md-3">
+        <h1>For VITians. By VITians</h1>
+        <p>VITrendz - one place for all resourses.</p>
+        </div>
+        </div>
+    </div>
+
+
+<!--parallex division 2 ends here-->
+
+
 <div class="socialCover">
 <div class="container">
 <div class="row">
@@ -431,14 +447,38 @@ Thank you!
             <div class="trendzSocial">
                 <div class="SocialHeading"><h1>VITrendz Sociale</h1></div>
                 <div class="socialBody">
-                    <div class="socialpa"><p>Vitrendz is an organization that has its roots mainly in social platforms. It has proven from time to time that entertainment, academic resources and other academic help can be provided by using social media in a positive way.<br> <br>VITrendz Sociale platforms:</p>
+                    <div class="socialpara1"><p>Vitrendz is an organization that has its roots mainly in social platforms. It has proven from time to time that entertainment, academic resources and other academic help can be provided by using social media in a positive way.<br> <br>VITrendz Sociale platforms:</p>
                     
                     <ul>
-                        <li><h5>Instagram</h5></li>
-                        <li><h5>Facebook</h5></li>
-                        <li><h5>Telegram</h5></li>
-                        <li><h5>Youtube</h5></li>
-                        <li><h5>WhatsApp</h5></li>
+                        <li>
+                        
+                        <button type="button" class="btn btn-outline-primary btn-lg insta btn1" data-modal-target="#socialModal" id="socI"> <i class="fab fa-instagram"></i> | Instagram</button>
+                        
+                        </li>
+                        
+                        <li>
+                        
+                        <button type="button" class="btn btn-outline-primary btn-lg fb btn1" data-modal-target="#socialModal" id="socF"><i class="fab fa-facebook-f"></i> | Facebook</button>
+                        
+                        </li>
+                        
+                        <li>
+                        
+                        <button type="button" class="btn btn-outline-primary btn-lg tele btn1" data-modal-target="#socialModal" id="socT"><i class="fab fa-telegram-plane"></i> | Telegram</button>
+                        
+                        </li>
+                        
+                        <li>
+                        
+                        <button type="button" class="btn btn-outline-primary btn-lg tube btn1" data-modal-target="#socialModal" id="socY"><i class="fab fa-youtube"></i> | Youtube</button>
+                        
+                        </li>
+                       
+                         <li>
+                         
+                         <button type="button" class="btn btn-outline-primary btn-lg whats btn1" data-modal-target="#socialModal" id="socW"><i class="fab fa-whatsapp"></i> | WhatsApp</button>
+                         
+                         </li>
                     </ul>
                     
                     </div>
@@ -450,6 +490,17 @@ Thank you!
     </div>
     
     </div>
+    
+    <div class="modal" id="socialModal">
+    <div class="modal-header">
+      <div class="title" id="socTitle"></div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" id="socBody"></div>
+    <div class="modBtnPlacement">
+  <a href="" id="modLink"><button type="button" id="modButton" class="btn btn-success">Open Link</button></a>
+  </div>
+  </div>
     </div>
 
 
@@ -550,6 +601,8 @@ Thank you!
     <script src="JAVASCRIPT/modal.js"></script>
 <script src="JAVASCRIPT/owl.carousel.min.js"></script>
 <script src="JAVASCRIPT/owl.autoplay.js"></script>
+
+
 
 <script>
 
