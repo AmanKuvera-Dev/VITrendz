@@ -875,7 +875,7 @@ blockquote::after {
     width:400px
 }
 
-@media(max-width:635px) and (min-width:420px)
+@media(max-width:635px)
 {
     .btn1{
     width:250px
