@@ -91,7 +91,23 @@
     
 } 
 
+#modButtonSoc{
+   
+    display: block !important;
+    outline: none !important;
+    background-color: #DB1F48 !important;
+    border: 2px solid white !important;
+    outline:none !important;
+    
+    
+} 
+
 #modLink{
+    text-decoration: none !important;
+    outline:none !important;
+}
+
+#modLinkSoc{
     text-decoration: none !important;
     outline:none !important;
 }
