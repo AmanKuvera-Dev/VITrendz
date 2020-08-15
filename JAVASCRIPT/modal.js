@@ -18,10 +18,18 @@ const socModBtn = document.getElementById('modLinkSoc')
 const socTitle = document.getElementById('socTitle')
 const inst = document.getElementById('socI')
 const face = document.getElementById('socF')
+const lIN = document.getElementById('socL')
 const tele = document.getElementById('socT')
 const you = document.getElementById('socY')
 const what = document.getElementById('socW')
 const socBody = document.getElementById('socBody')
+
+const conTitle = document.getElementById('conTitle')
+const conBody = document.getElementById('conBody')
+const sponsor = document.getElementById('Sponsorship')
+const onlyContact = document.getElementById('onlyContact')
+
+
 
 
 
@@ -51,6 +59,7 @@ question.onclick = ()=>{
         modTitle.innerHTML = "Question Bank"
     modBtn.href = "https://www.vitrendz.tech/adPost/resources"
     }
+
 resell.onclick = ()=>
     {
         bod.innerHTML="Thinking of what to do with old books, lab coats, etc.? U have landed at correct place. <br> We cover all your wishes of buying or selling your items among your college mates only .Yes u have read it right you don't even have to step out of the campus. <br>VITRENDZ brings you an exclusive section &#39;BUY AND SELL&#39; for you. So ,what are you waiting for post your ad today or look up for the first item which u wanna buy !!"
@@ -91,6 +100,15 @@ face.onclick = () =>
 
 }
 
+
+lIN.onclick = () =>
+{
+    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+    socTitle.innerHTML = "VITrendz LINKEDIN"
+    socModBtn.href = "#"
+
+}
+
 tele.onclick = () =>
 {
     socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
@@ -116,6 +134,18 @@ what.onclick = () =>
     socModBtn.href = "https://t.ly/tQgn"
 
 }
+
+onlyContact.onclick = ()=>{
+        bod.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+        conTitle.innerHTML = "Contact Us"
+    }
+
+sponsor.onclick = ()=>{
+        conBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+        conTitle.innerHTML = "Sponsor Us"
+    }
+
+
 
 
 openModalButtons.forEach(button => {

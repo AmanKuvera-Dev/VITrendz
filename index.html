@@ -471,6 +471,8 @@ Thank you!
                         
                         </li>
                         
+                        
+                        
                         <li>
                         
                         <button type="button" class="btn btn-outline-primary btn-lg tele btn1" data-modal-target="#socialModal" id="socT"><i class="fab fa-telegram-plane"></i> | Telegram</button>
@@ -480,6 +482,12 @@ Thank you!
                         <li>
                         
                         <button type="button" class="btn btn-outline-primary btn-lg tube btn1" data-modal-target="#socialModal" id="socY"><i class="fab fa-youtube"></i> | Youtube</button>
+                        
+                        </li>
+                        
+                        <li>
+                        
+                        <button type="button" class="btn btn-outline-primary btn-lg linked btn1" data-modal-target="#socialModal" id="socL"><i class="fab fa-linkedin-in"></i> | LinkedIn</button>
                         
                         </li>
                        
@@ -543,7 +551,7 @@ Thank you!
                    <img src="CSS/image/SPONSOR.png" class="img-responsive spon-size" alt="">
                     <h3 class="contactHeaders">Sponsor Us</h3>
                     <p class="contactDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero tempora quaerat maxime in provident veniam, laudantium facere dolores non sapiente, tenetur, at neque quos! Ad itaque, molestiae eaque at vitae.</p>
-                    <button type="button" class="btn btn-primary cnctBtn">Connect Now</button>
+                    <button type="button" data-modal-target="#contactModal" class="btn btn-primary cnctBtn" id="Sponsorship">Connect Now</button>
                     
                     
                 </div>
@@ -551,18 +559,26 @@ Thank you!
                    <img src="CSS/image/generalQueries.png" class="img-responsive spon-size cnctBtn" alt="">
                     <h3 class="contactHeaders">General Queries </h3>
                     <p class="contactDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero tempora quaerat maxime in provident veniam, laudantium facere dolores non sapiente, tenetur, at neque quos! Ad itaque, molestiae eaque at vitae.</p>
-                    <button type="button" class="btn btn-primary">Connect Now</button>
+                    <button type="button" class="btn btn-primary" id="generalQ">Connect Now</button>
                 </div>
                 <div class="col-md-4 mid"> 
                    <img src="CSS/image/contact.png" class="img-responsive spon-size cnctBtn" alt="">
                     <h3 class="contactHeaders">Contact Us</h3>
                     <p class="contactDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero tempora quaerat maxime in provident veniam, laudantium facere dolores non sapiente, tenetur, at neque quos! Ad itaque, molestiae eaque at vitae.</p>
-                    <button type="button" class="btn btn-primary">Connect Now</button>
+                    <button type="button" data-modal-target="#contactModal" id="onlyContact" class="btn btn-primary">Connect Now</button>
                 </div>
                 
             </div>
         
     </div>
+    
+    <div class="modal" id="contactModal">
+    <div class="modal-header">
+      <div class="title" id="conTitle"></div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body" id="conBody"></div>
+  </div>
     
 </section>
 

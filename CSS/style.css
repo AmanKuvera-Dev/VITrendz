@@ -840,6 +840,17 @@ blockquote::after {
     border-color:#03248d;  
 }
 
+.linked{
+   color:dodgerblue;
+    border-color:dodgerblue;  
+}
+
+.linked:hover{
+   background-color:dodgerblue ;
+    border-color:dodgerblue;  
+}
+
+
 
 .tube{
     color:#f70002;
