@@ -55,7 +55,7 @@ faculty.onclick = ()=>
     }
 
 question.onclick = ()=>{
-        bod.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+        bod.innerHTML="Every student of VIT has fears. The most common fear among all the students of every branch in VIT is exam phobia. As the name suggests, fear of exams. CATs and FAT form the integral scoring weight of almost all courses availed by any student.Prepare some strategies to score well in your tests.Check out the difficulty level of the questions asked previously. VITRENDZ heard your prayers. To boost up your preparations we bring you the exquisite and much needed previous question papers of CATS and FAT for more than 200 different courses. Just enter you course details on the VITRENDZ web page and there you go your key to crack your exams. Let your fears drive away with a boost of confidence from the previous year question papers. GOOD LUCK!"
         modTitle.innerHTML = "Question Bank"
     modBtn.href = "https://www.vitrendz.tech/adPost/resources"
     }
@@ -68,7 +68,7 @@ resell.onclick = ()=>
     }
 lab.onclick = ()=>
     {
-        bod.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+        bod.innerHTML="Annoyed with loads of assignments one week before CATs? <br><br> Vitrendz is at your rescue.<br><br>Enter your subject, slot and faculty names to get reference lab assignments. Yes, it's that easy, just click, click and click. Lab assignments are just 3 clicks away. Don't hesitate to inform us if you have any queries or don't find the attachment you need. So, what are you waiting for??!!! Avail yourselves of this spectacular opportunity, verify and clarify all and any doubts you have. Avoid mistakes, increase accuracy and get higher grades within less time !"
         modTitle.innerHTML = "Lab Records"
     modBtn.href = "https://www.vitrendz.tech/lab"
     }
