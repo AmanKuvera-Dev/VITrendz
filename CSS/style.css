@@ -20,6 +20,7 @@ html{
 
 body{
     padding-top: 0px;
+    padding-bottom: 0px;
     color: #5a5a5a;
     height: 100%;
     width:100%;
@@ -879,7 +880,7 @@ blockquote::after {
 .contactCover{
      padding-top:100px;
     padding-right:10px;
-    padding-bottom:10px;
+    padding-bottom:100px;
     padding-left:10px;
     position:relative;
     opacity: 1!important;
@@ -1231,6 +1232,20 @@ blockquote::after {
         opacity:0.5;
     
 }
+}
+
+.footer-text{
+    text-align: center;
+    margin: 0 !important;
+}
+
+footer{
+    background-color: #B1D4E0;
+    color: #0C2D48;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    padding:5px 0px;
 }
 
 
