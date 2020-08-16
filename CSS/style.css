@@ -884,25 +884,26 @@ blockquote::after {
     padding-left:10px;
     position:relative;
     opacity: 1!important;
-    background-color: #E5DDC8
+    background-color: #0C2D48;
+    color:whitesmoke;
 }
 
 .contactTitle{
     text-align: center;
-    color:#004369;
+    color:#E5DDC8 !important;
     font-weight: 700;
 }
 
 .subContactHead1{
         text-align: center;
         font-weight: 700;
-        color:#DB1F48;
+        color:#DB1F48 !important;
 }
 
 .subContactHead2{
         text-align: center;
         
-    color:#2E8BC0;
+    color:#2E8BC0 !important;
 }
 
 .contactSection{
@@ -934,10 +935,6 @@ blockquote::after {
 }
 
 
-.services-heading p{
-    
-}
-
 .cnctBtn{
     outline:none;
 }
@@ -945,13 +942,158 @@ blockquote::after {
 
 
 
+.recrutCover{
+     padding-top:100px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    position:relative;
+    opacity: 1!important;
+    background-color: ;
+    background-image: url(image/join%20team.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden !important
+}
 
 
 
+.recruitTitle{
+    text-align: center;
+    color:#004369;
+    font-weight: 700;
+}
+
+.recruitHead1{
+        text-align: center;
+        font-weight: 700;
+        color:#DB1F48;
+}
+
+.recruitHead2{
+        text-align: center;
+        
+    color:#2E8BC0;
+}
+
+.recruitSection{
+    padding: 50px;
+}
+
+.recruitBtn{
+    outline:none;
+}
+
+.recBtn{
+    text-align: center;
+    margin: 60px;
+}
 
 
+#tech-posibig{
+    position:absolute;
+    top:40%;
+    right:0;
+    left:25%;
+    bottom:0;
+    margin:0;
+    display: block;
+    
+}
+
+.techCirc{
+    height:100px;
+    width:100px;
+    opacity: 0.6;
+    animation: zoomEffect 4s infinite;
+}
+
+#mng-posi{
+    position:absolute;
+    top:10%;
+    right:0;
+    left:5%;
+    bottom:0;
+    margin:0;
+
+    display: block;
+    
+}
 
 
+.edit-posi1{
+      position:absolute;
+    top:65%;
+    right:0;
+    left:5%;
+    bottom:0;
+    margin:0;
+    display:block;
+}
+.mngCirc{
+    height:100px;
+    width:100px;
+    opacity: 0.6;
+    animation: zoomEffect 3s infinite;
+    
+}
+
+.edit-circle1{
+    height:100px;
+    width:100px;
+    opacity: 0.6;
+    animation: zoomEffect 3s infinite;
+    
+}
+
+@media(max-width:1180px){
+    #tech-posibig{
+    position:absolute;
+    top:40%;
+    right:0;
+    left:15%;
+    bottom:0;
+    margin:0;
+    display: block;
+    
+}
+}
+
+@media(max-width:840px){
+    #tech-posibig,.edit-posi1,#mng-posi{
+    display: none;
+    
+}
+    
+}
+
+@keyframes ani-rotate{
+    50%{
+        transform: rotate(-180deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+#skill-posi1{
+    position:absolute;
+    top:0;
+    right:0;
+    left:82%;
+    bottom:0;
+    margin:0;
+    display: block;
+    
+}
+
+.skillCirc{
+    height:500px;
+    width:500px;
+    opacity: 0.6;
+    animation: ani-rotate 50s linear infinite;
+}
 
 
 
