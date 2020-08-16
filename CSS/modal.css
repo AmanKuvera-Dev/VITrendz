@@ -32,9 +32,9 @@
     
 }
 
-@media(max-width:460px){
+@media(max-width:480px){
     .modal{
-        max-width: 90%;
+        max-width: 95%;
         max-height: 60%;
     }
 }
