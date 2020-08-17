@@ -123,3 +123,13 @@
 .shadow{
     box-shadow: 1px 1px 5px black !important;
 }
+
+.navbar-collapse{
+    background-color: #3f586b !important;
+    
+    
+}
+
+.navbar-collapse .nav-item{
+    padding-left: 20px !important;
+}
