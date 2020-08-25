@@ -1250,11 +1250,12 @@ footer{
 
 
 .MTTpicF{
-    text-align: center;
+    text-align: center !important;
+    
 }
 
 .MTTCover{
-    padding-top:200px;
+    padding-top:150px;
     padding-right:10px;
     padding-bottom:100px;
     padding-left:10px;
@@ -1267,18 +1268,17 @@ footer{
     margin-bottom: 40px;
 }
 
-.founders{
-    margin-top: 100px;
-}
+
 
 .coFound{
     margin-top: 60px;
 }
 
+
+
 .Fimg{
-    height: 125px;
-    width: 125px;
-    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .Fimg1{
@@ -1302,3 +1302,67 @@ footer{
     text-align: center;
 }
 
+.flip-cover{
+    border: solid 2px black;
+    background-color: #ecf0f1;
+    padding: 25px 0px;
+    border-radius: 5%;
+    margin-top: 25px;
+    text-align: center !important;
+    align-content: center;
+}
+
+
+.f1_container {
+ position: relative;
+  margin: 0px auto;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+    perspective: 1000;
+}
+
+.front{
+    display: block;
+}
+
+
+.f1_card {
+    width: 100%;
+    height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+    margin-top: 100px;
+}
+.f1_container:hover .f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+   
+}
+
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}
+
+.jumbotron {
+    color: #2c3e50;
+    background: #ecf0f1;
+    height: 100%;
+}
+
+.manage{
+    margin-bottom:50px
+}
