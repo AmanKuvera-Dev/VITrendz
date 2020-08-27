@@ -1369,7 +1369,7 @@ footer{
 
 
 .linkedColor{
-    color:#0E76A8;
+    color:#0E76A8 !important;
     
     
 }
@@ -1384,24 +1384,24 @@ footer{
 }
 
 .instaColor{
-    color:#DB1F48
+    color:#DB1F48 !important
 }
 
 .mailColor{
-    color:#D44638;
+    color:#D44638 !important;
 }
 
 .gitColor{
-    color:#333;
+    color:#333 !important;
 }
 
 .back p{
-    color: #0C2D48;
+    color: #0C2D48 ;
     font-weight:bold
 }
 
 .teamLinks{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .CV{
     margin-top: 10px;
