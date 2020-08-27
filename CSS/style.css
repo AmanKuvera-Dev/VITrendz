@@ -1400,6 +1400,9 @@ footer{
     font-weight:bold
 }
 
+.teamLinks{
+    text-decoration: none;
+}
 .CV{
     margin-top: 10px;
     font-size: 10px
