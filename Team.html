@@ -87,7 +87,7 @@
     <div class="container">
       
        
-          <div class="jumbotron">
+          <div class="jumbotron" >
      <div class="col-md-10 offset-md-1">
                <div class="MTTTitle">
                     <h6 class="recruitHead1">
@@ -97,16 +97,19 @@
                         MEET THE TEAM
                     </h1>
                     <h5 class="recruitHead2">
-                        The Founders, Co-Founders and Founding Managers
+                        The Founders, Co-Founders and Managing Partners
                         
                     </h5>
+                    <div class="seeAll">
+                   <button type="button" class="btn btn-dark seeAllbtn buttonToggle" >View All</button>
+                   </div>
                 </div>
                 
            </div>
   </div>
    
-   <div class="jumbotron">
-    <div class="MTTBody">
+   <div class="jumbotron visibleJumbo">
+    <div class="MTTBody" >
         <div class="row">
            
             <div class="col-md-4 offset-md-2 MTTpicF founder1">
@@ -335,6 +338,32 @@
         </div>
     </div>
     </div>
+    
+    
+    <div class="jumbotron" >
+     <div class="col-md-10 offset-md-1">
+               <div class="MTTTitle">
+                    <h6 class="recruitHead1">
+                       "WEBSITES PROMOTE YOU 24/7 : NO EMPLOYEE WILL DO THAT"
+                   </h6>
+                    <h1 class="recruitTitle">
+                        WEB TEAM
+                    </h1>
+                    <h5 class="recruitHead2">
+                        Drag and Drop? Nah! We code our own website.
+                        
+                    </h5>
+                    <div class="seeAll">
+                   <button type="button" class="btn btn-dark seeAllbtn" id="buttonToggle" >View All</button>
+                   </div>
+                </div>
+                
+           </div>
+  </div>
+    
+    
+    
+    
     </div>
      
 
@@ -412,6 +441,25 @@
      $('.smart-button').click(function(){
           $('.smart-cont').toggleClass('select')
       });
+    
+    
+    $('.buttonToggle').click(function(){
+        if($('.visibleJumbo').css('display') == 'none')
+        {
+            
+            $('.visibleJumbo').show(1000);
+                $('.buttonToggle').html('Hide All');
+            
+        }
+        
+        else{
+            
+            $('.visibleJumbo').hide(1000);
+                $('.buttonToggle').html('View All');
+            
+        }
+        
+    });
     
     
       </script>

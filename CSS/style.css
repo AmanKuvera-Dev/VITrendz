@@ -1408,3 +1408,27 @@ footer{
     margin-top: 10px;
     font-size: 10px
 }
+
+.seeAll{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.seeAllbtn{
+    transition: transform .2s !important;
+}
+
+.seeAllbtn:hover{
+    transform: scale(1.1) !important;
+      -ms-transform: scale(1.1)!important;  /* IE 9 */
+  -webkit-transform: scale(1.1)!important;
+}
+
+.visibleJumbo{
+    display: none;
+}
+
+
+
+
+
