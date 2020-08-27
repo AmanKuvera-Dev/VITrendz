@@ -1352,9 +1352,9 @@ footer{
   transform: rotateY(180deg);
   box-sizing: border-box;
   padding: 10px;
-  color: white;
   text-align: center;
   background-color: #aaa;
+    border: solid 2px #0C2D48
 }
 
 .jumbotron {
@@ -1365,4 +1365,42 @@ footer{
 
 .manage{
     margin-bottom:50px
+}
+
+
+.linkedColor{
+    color:#0E76A8;
+    
+    
+}
+
+.zoom{
+    transition: transform .2s;
+    text-align: left !important;
+}
+
+.zoom:hover{
+    transform: scale(1.2)
+}
+
+.instaColor{
+    color:#DB1F48
+}
+
+.mailColor{
+    color:#D44638;
+}
+
+.gitColor{
+    color:#333;
+}
+
+.back p{
+    color: #0C2D48;
+    font-weight:bold
+}
+
+.CV{
+    margin-top: 10px;
+    font-size: 10px
 }
