@@ -1353,7 +1353,7 @@ footer{
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
-  background-color: #aaa;
+  background-color: ghostwhite;
     border: solid 2px #0C2D48
 }
 
@@ -1425,6 +1425,10 @@ footer{
 }
 
 .visibleJumbo{
+    display: none;
+}
+
+.visibleJumbo2{
     display: none;
 }
 
