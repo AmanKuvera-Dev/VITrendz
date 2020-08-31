@@ -27,7 +27,7 @@ const socBody = document.getElementById('socBody')
 const conTitle = document.getElementById('conTitle')
 const conBody = document.getElementById('conBody')
 const sponsor = document.getElementById('Sponsorship')
-const onlyContact = document.getElementById('onlyContact')
+const onlyCont =document.getElementById('onlyContact')
 
 
 
@@ -47,7 +47,7 @@ document.getElementById('mainHostel').href= "https://www.vitrendz.tech/hostels"
 
 faculty.onclick = ()=>
     {
-        bod.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+        bod.innerHTML="VIT is home to tens of thousands of students and thousands of faculty members who teach a whole wide range of courses, and it’s an absolute mayhem when it’s time for the finger-crossing and luck-dependent FFCS which lets you choose your courses and their respective faculty members. The hardest fear of students is ending in an important course with a dreaded unprofessional faculty member. How do you know who the best teacher could really be? VITrendz has your answer. We bring you the various reviews and ratings of various faculty members of the university written and posted by older students of those faculties, to get you the right teacher for your course. Make use of this facility to make your semester go better."
     
         modTitle.innerHTML = "Faculty Rating"
     modBtn.href = "https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fwww.vitconnex.com%2Fauth%2Fgoogle%2Fcallback&scope=profile%20email&client_id=1615070795-9m0rkdaa01jggipf5qsrt9k63kk0k2qt.apps.googleusercontent.com&flowName=GeneralOAuthFlow"
@@ -135,13 +135,13 @@ what.onclick = () =>
 
 }
 
-onlyContact.onclick = ()=>{
-        bod.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+onlyCont.onclick = ()=>{
+        conBody.innerHTML=" "
         conTitle.innerHTML = "Contact Us"
     }
 
 sponsor.onclick = ()=>{
-        conBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+        conBody.innerHTML=""
         conTitle.innerHTML = "Sponsor Us"
     }
 
