@@ -1412,17 +1412,18 @@ footer{
     
 }
 
+
 .less{
-    display:none !important;
+    display: none;
 }
 
 @media(max-width:992px){
 .more{
-    display:none;
+    display:none
 }
 
 .less{
-    display:block;
+    display:flex;
 }
 }
 
