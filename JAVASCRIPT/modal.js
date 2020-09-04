@@ -136,13 +136,13 @@ what.onclick = () =>
 }
 
 onlyCont.onclick = ()=>{
-        conBody.innerHTML=" "
-        conTitle.innerHTML = "Contact Us"
+        conBody.innerHTML="<br><div class='blueModal'>Have Technical Issues? <br>Finding it difficult to traverse through the website, or <br>Did you find a bug?</div><br><div class='pinkModal'>Email : <br><a href='mailto:help@vitrendz.tech'>help@vitrendz.tech</a><br></div><br><br><div class='blueModal'> Wanna Collaborate? </div><br> <div class='pinkModal'>Email : <br><a href = 'mailto:management@vitrendz.tech'>management@vitrendz.tech</a><br><br>Contact: </div><div class='lightblue'>+91 9445228496 &#40; CMO - Rishi Vandhana &#41;</div><br>"
+        conTitle.innerHTML = "<i class='far fa-handshake'></i> Contact Us"
     }
 
 sponsor.onclick = ()=>{
         conBody.innerHTML=""
-        conTitle.innerHTML = "Sponsor Us"
+        conTitle.innerHTML = "<i class='fas fa-hand-holding-usd'></i> Sponsor Us"
     }
 
 
