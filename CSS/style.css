@@ -1471,12 +1471,12 @@ footer{
     color: rgb(255,255,255,1);
 }
 
-@media(min-width:200px){
+/*
 .collab-parallex{
     background: linear-gradient(to right, rgba(94, 238, 187,0.7), rgba(81, 170, 250,0.7));
 
-}
-}
+}*/
+
 
 .collabTitle{
     
