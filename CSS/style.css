@@ -777,15 +777,31 @@ blockquote::after {
 }
 
 .mission h4{
-    border: solid 2px white;
+    border: solid 3px #0C2D48;
+            border-radius: 8px;
     padding:5px;
-    display: block
+        color: #DB1F48;
+    display: block;
+    font-size: 25px;
+    font-weight: bold; 
+    text-align: center
+}
+
+.mission p, .vision p{
+    text-align:justify;
+    font-size: 20px;
+    color: #0C2D48 !important
 }
 
 .vision h4{
-    border: solid 2px white;
+    border: solid 3px #0C2D48;
+            border-radius: 10px;
     padding:5px;
-     display: block
+    color: #DB1F48;
+     display: block;
+        font-size: 25px;
+    font-weight: bold; 
+    text-align: center
 }
 
 @media(max-width:500px){
