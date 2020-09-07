@@ -74,7 +74,7 @@ lab.onclick = ()=>
     }
 qb2.onclick = ()=>
     {
-        bod.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+        bod.innerHTML="Planning to take room this semester with your CGPA?<br><br>VIT MH ROOM PREDICTOR 2020, helps u predict the probability of your desired block based on your CGPA. Just put your branch, year, block, and  CGPA your probability for the desired room will be displayed within a click"
         modTitle.innerHTML = "Hostel Predictor"
     modBtn.href = "https://www.vitrendz.tech/hostels"
     }
@@ -90,6 +90,7 @@ inst.onclick = () =>
     socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
     socTitle.innerHTML = "VITrendz Instagram"
     socModBtn.href = "https://www.instagram.com/vitrendz/?hl=en"
+
 }
 
 face.onclick = () =>
