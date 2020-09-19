@@ -749,6 +749,11 @@ blockquote::after {
  
 }
 
+.misVis:hover{
+    border-left: solid 5px #DB1F48;
+ 
+}
+
 .how{
     margin-top: 120px;
     text-align: left;
@@ -770,6 +775,20 @@ blockquote::after {
         color: #DB1F48;   
 }
 
+
+.misVis{
+    margin-top: 120px;
+    text-align: left;
+    border-left: solid 7px #0C2D48;
+    padding-left: 15px ;
+        border-radius: 5px;
+
+        color: #DB1F48; 
+    
+}
+
+
+
 .pClass{
     text-align:justify;
     font-size: 20px;
@@ -778,7 +797,7 @@ blockquote::after {
 }
 
 
-.what h5, .how h5, .msgMotto h5{
+.what h5, .how h5, .msgMotto h5, .misVis h5{
     font-size: 25px;
     font-weight: bold; 
     text-align: center
@@ -786,44 +805,8 @@ blockquote::after {
 }
 
 
-.misVis{
-    margin-top: 20%;
-    
-}
 
-.mission h4{
-    border: solid 3px #0C2D48;
-            border-radius: 8px;
-    padding:5px;
-        color: #DB1F48;
-    display: block;
-    font-size: 25px;
-    font-weight: bold; 
-    text-align: center
-}
 
-.mission p, .vision p{
-    text-align:justify;
-    font-size: 20px;
-    color: #0C2D48 !important
-}
-
-.vision h4{
-    border: solid 3px #0C2D48;
-            border-radius: 10px;
-    padding:5px;
-    color: #DB1F48;
-     display: block;
-        font-size: 25px;
-    font-weight: bold; 
-    text-align: center
-}
-
-@media(max-width:500px){
-    .mission{
-        margin-top: 30px;
-    }
-}
 
 .trendzSocial{
     padding-top:100px;
@@ -934,6 +917,16 @@ blockquote::after {
 .whats{
     color:#3ebe4f;
     border-color:#3ebe4f; 
+}
+
+.spoti{
+    color:darkgreen;
+    border-color:darkgreen; 
+}
+
+.spoti:hover{
+    Background-color:darkgreen;
+    border-color:darkgreen; 
 }
 
 .whats:hover{

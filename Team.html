@@ -769,8 +769,35 @@
      $('.smart-button').click(function(){
           $('.smart-cont').toggleClass('select')
       });
+    
+    $('.buttonToggle').click(function(){
+        if($('.visibleJumbo').is(":visible")){
+            $('.visibleJumbo').hide();
+            $('.buttonToggle').html("View All")
+        }
+        else{
+            $('.visibleJumbo').show();
+            $('.buttonToggle').html("Hide All")
+
+        }
+        
+    });
+    
+    $('.buttonToggle2').click(function(){
+        if($('.visibleJumbo2').is(":visible")){
+            $('.visibleJumbo2').hide();
+            $('.buttonToggle2').html("View All")
+        }
+        else{
+            $('.visibleJumbo2').show();
+            $('.buttonToggle2').html("Hide All")
+        }
+        
+    })
         
       </script>
+      
+      
 
 
  

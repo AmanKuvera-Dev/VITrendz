@@ -102,6 +102,17 @@
     
 } 
 
+.modButSocYou{
+   
+    display: block !important;
+    outline: none !important;
+    background-color: #DB1F48 !important;
+    border: 2px solid white !important;
+    outline: none !important;
+    
+    
+} 
+
 #modLink{
     text-decoration: none !important;
     outline:none !important;
@@ -117,6 +128,14 @@
     left:50%;
     transform: translate(-50%, -50%);
     margin-top:30px !important;
+    margin-bottom:10px !important
+}
+
+.modBtnYou{
+     position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin-top:100px !important;
     margin-bottom:10px !important
 }
 

@@ -22,12 +22,14 @@ const lIN = document.getElementById('socL')
 const tele = document.getElementById('socT')
 const you = document.getElementById('socY')
 const what = document.getElementById('socW')
+const spoty = document.getElementById('socSpot')
 const socBody = document.getElementById('socBody')
 
 const conTitle = document.getElementById('conTitle')
 const conBody = document.getElementById('conBody')
 const sponsor = document.getElementById('Sponsorship')
 const onlyCont =document.getElementById('onlyContact')
+const socBtnInner = document.getElementById('modButtonSoc')
 
 
 
@@ -106,7 +108,7 @@ lIN.onclick = () =>
 {
     socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
     socTitle.innerHTML = "VITrendz LINKEDIN"
-    socModBtn.href = "#"
+    socModBtn.href = "https://www.linkedin.com/company/vitrendz/"
 
 }
 
@@ -121,9 +123,10 @@ tele.onclick = () =>
 
 you.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!<br><br><div class='modBtnYou'?<a href='youtube.html' target='_blank'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
     socTitle.innerHTML = "VITrendz Youtube"
     socModBtn.href = "https://www.youtube.com/channel/UCmAwtdi2YTCA_ifMlx0yIDA/"
+    socBtnInner.innerHTML = "Open Youtube"
 
 }
 
@@ -133,6 +136,15 @@ what.onclick = () =>
     socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
     socTitle.innerHTML = "VITrendz WhatsApp"
     socModBtn.href = "https://t.ly/tQgn"
+
+}
+
+
+spoty.onclick = () =>
+{
+    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+    socTitle.innerHTML = "VITrendz Spotify"
+    socModBtn.href = "https://open.spotify.com/show/3TbsDplb4EUczRLAg07ByL"
 
 }
 
