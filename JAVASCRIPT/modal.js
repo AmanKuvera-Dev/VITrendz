@@ -123,7 +123,7 @@ tele.onclick = () =>
 
 you.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!<br><br><div class='modBtnYou'?<a href='youtube.html' target='_blank'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
+    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!<br><br><div class='modBtnYou'><a href='youtube.html' style='text-decoration:none!important' target='_self'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
     socTitle.innerHTML = "VITrendz Youtube"
     socModBtn.href = "https://www.youtube.com/channel/UCmAwtdi2YTCA_ifMlx0yIDA/"
     socBtnInner.innerHTML = "Open Youtube"
@@ -154,7 +154,7 @@ onlyCont.onclick = ()=>{
     }
 
 sponsor.onclick = ()=>{
-        conBody.innerHTML=""
+        conBody.innerHTML="<br><div class='blueModal'>Sponsor Us to promote your product / brand among the huge population of VITians '('students in VIT')' and also to help us accomplish our vision and goals.</div><br><br><div class='pinkModal'>Email : <br><a href='mailto:sponsorsjip@vitrendz.tech'>sponsorship@vitrendz.tech</a><br><br>Contact: </div><div class='lightblue'>+91 9431586001 <br>&#40; Chief Finance Officer - Shwetanshu Shekhar &#41;</div><br>"
         conTitle.innerHTML = "<i class='fas fa-hand-holding-usd'></i> Sponsor Us"
     }
 
