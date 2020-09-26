@@ -1605,3 +1605,62 @@ height:200px !important;
 .boardThis{
     margin-bottom:60px;
 }
+
+
+.myCommunity{
+    margin-top: 150px;
+}
+
+.countRow{
+    margin-top: 40px;
+}
+
+.countRow div{
+    margin-top: 60px;
+}
+
+.countRow2{
+    margin-top: 80px;
+}
+
+.countRow2 div{
+    margin-top: 30px;
+}
+
+.icon-box{
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    height: 80px !important;
+    width:80px !important;
+    margin:20px auto;
+    transform: rotate(45deg)
+}
+
+.icon-box .fab{
+    font-size: 30px;
+    margin:22px auto;
+    color: darkblue;
+    transform: rotate(-45deg)
+
+}
+
+.icon-box .fas{
+    font-size: 30px;
+    margin:22px auto;
+    color: darkblue;
+    transform: rotate(-45deg)
+
+}
+
+.counter-box p{
+    font-size: 15px;
+}
+
+
+.counter-box .counter{
+    font-size: 40px;
+}
+
+.counter-box h2{
+    font-size: 40px;
+}

@@ -23,6 +23,7 @@ const tele = document.getElementById('socT')
 const you = document.getElementById('socY')
 const what = document.getElementById('socW')
 const spoty = document.getElementById('socSpot')
+const Discord = document.getElementById('socDiscord')
 const socBody = document.getElementById('socBody')
 
 const conTitle = document.getElementById('conTitle')
@@ -89,7 +90,7 @@ cab.onclick = ()=>
 
 inst.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+    socBody.innerHTML="<div class='socModTexts'><br>We all know how stressful and tensed a VITian’s life can be. From the strenuous Digital Assignments to the finish of the Final exams on steroids, time flies in the blink of an eye while students remain under the pump. And so, to work up your stomach and face muscles and release your endorphins, we here at VITrendz bring you entertainment through memes, JVTs, verses, puns, and a lot more which you may not have seen ever before.<br>Catch some amazing content, our tedious work towards the betterment of our students, and our coming up projects only on our Instagram page to make your life at VIT much easier and memorable.</div>"
     socTitle.innerHTML = "VITrendz Instagram"
     socModBtn.href = "https://www.instagram.com/vitrendz/?hl=en"
 
@@ -97,7 +98,7 @@ inst.onclick = () =>
 
 face.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+    socBody.innerHTML="<div class='socModTexts'><br>Updates about the various projects and programs by VITrendz in one place .Make sure to drop like to get notified and join our Facebook groups to follow up on things happening on this platform in VIT.</div>"
     socTitle.innerHTML = "VITrendz Facebook"
     socModBtn.href = "https://www.facebook.com/pages/category/Social-Club/VITrendz-110405110659537/"
 
@@ -106,15 +107,15 @@ face.onclick = () =>
 
 lIN.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
-    socTitle.innerHTML = "VITrendz LINKEDIN"
+    socBody.innerHTML="<div class='socModTexts'><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!</div>"
+    socTitle.innerHTML = "VITrendz LinkedIn"
     socModBtn.href = "https://www.linkedin.com/company/vitrendz/"
 
 }
 
 tele.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+    socBody.innerHTML="<div class='socModTexts'><br>Spam free discussion is hard to get in college like VIT. Join our telegram groups to get a total spam controlled discussion o the mention groups. Do check out, the information with the link. These groups are easier ways to meet and make new friends, not miss out on important information, and not be alone in achieving success.</div>"
     socTitle.innerHTML = "VITrendz Telegram"
     socModBtn.href = "#"
 
@@ -123,7 +124,7 @@ tele.onclick = () =>
 
 you.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!<br><br><div class='modBtnYou'><a href='youtube.html' style='text-decoration:none!important' target='_self'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
+    socBody.innerHTML="<div class='socModTexts'><br>Youtube Text</div><br><br><div class='modBtnYou'><a href='youtube.html' style='text-decoration:none!important' target='_self'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
     socTitle.innerHTML = "VITrendz Youtube"
     socModBtn.href = "https://www.youtube.com/channel/UCmAwtdi2YTCA_ifMlx0yIDA/"
     socBtnInner.innerHTML = "Open Youtube"
@@ -133,16 +134,24 @@ you.onclick = () =>
 
 what.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+    socBody.innerHTML="<div class='socModTexts'><br>The Beginnings of new semesters are tough. New peers, new faculty, new subject, and a whole new journey to begin diving deeper into the unexpected unknown. It is hard to go alone into the unknown without confirmation and support. Want to have better confidence by learning from others? Want to make things easier for you and others? We here at VITrendz, hear you. Check out this excel sheet where we create WhatsApp groups for different courses in different slots taken by different faculty members and students from VIT.<br><br>Do also check out Whatsapp groups made by VITrendz instep to encourage interaction among students</div>"
     socTitle.innerHTML = "VITrendz WhatsApp"
     socModBtn.href = "https://t.ly/tQgn"
 
 }
 
 
+Discord.onclick = () =>
+{
+    socBody.innerHTML="<div class='socModTexts'><br>Wanna make new friends? Get to know your batch mates and people in college? Missing out the opportunity to meet know people as a fresher? <br><br>Join our discord server now and make new friends! Play games together like among US, know each other well. So you don't miss out your 1 year of friendship mark next year.<br><br>Join our discord servers now</div>"
+    socTitle.innerHTML = "VITrendz Discord"
+    socModBtn.href = "https://discord.gg/jAVrYvn"
+
+}
+
 spoty.onclick = () =>
 {
-    socBody.innerHTML="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!"
+    socBody.innerHTML="<div class='socModTexts'><br>Wondered about the thinkings and story involved behind successful placements?<br><br>Come across the stories of the placement of your beloved seniors. Learn the most you can and appreciate each one's journey. Do not forget to follow us to get notifications about  further episodes</div>"
     socTitle.innerHTML = "VITrendz Spotify"
     socModBtn.href = "https://open.spotify.com/show/3TbsDplb4EUczRLAg07ByL"
 
