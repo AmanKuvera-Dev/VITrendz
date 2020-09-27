@@ -76,7 +76,7 @@ input[type="image"]
 }
 
 @keyframes example {
-    50%  {bottom:130px; transform: rotate3d(0, 1, 0, 180deg)}
+    50%  {bottom:130px !important; transform: rotate3d(0, 1, 0, 180deg)}
 
-    100%  {bottom:30px; transform: rotate3d(0)}
+    100%  {bottom:30px !important; transform: rotate3d(0)}
 }
