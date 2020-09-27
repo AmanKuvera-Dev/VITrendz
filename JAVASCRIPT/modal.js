@@ -93,6 +93,7 @@ inst.onclick = () =>
     socBody.innerHTML="<div class='socModTexts'><br>We all know how stressful and tensed a VITian’s life can be. From the strenuous Digital Assignments to the finish of the Final exams on steroids, time flies in the blink of an eye while students remain under the pump. And so, to work up your stomach and face muscles and release your endorphins, we here at VITrendz bring you entertainment through memes, JVTs, verses, puns, and a lot more which you may not have seen ever before.<br>Catch some amazing content, our tedious work towards the betterment of our students, and our coming up projects only on our Instagram page to make your life at VIT much easier and memorable.</div>"
     socTitle.innerHTML = "VITrendz Instagram"
     socModBtn.href = "https://www.instagram.com/vitrendz/?hl=en"
+    socBtnInner.innerHTML = "Open Instagram"
 
 }
 
@@ -101,23 +102,24 @@ face.onclick = () =>
     socBody.innerHTML="<div class='socModTexts'><br>Updates about the various projects and programs by VITrendz in one place .Make sure to drop like to get notified and join our Facebook groups to follow up on things happening on this platform in VIT.</div>"
     socTitle.innerHTML = "VITrendz Facebook"
     socModBtn.href = "https://www.facebook.com/pages/category/Social-Club/VITrendz-110405110659537/"
-
+    socBtnInner.innerHTML = "Open Facebook"
 }
 
 
 lIN.onclick = () =>
 {
-    socBody.innerHTML="<div class='socModTexts'><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos repellat aut in harum fuga aliquam placeat saepe quasi magni, iste eum adipisci nobis? Iusto dicta et, reprehenderit quam earum fugiat harum tempora cupiditate, voluptatum quaerat culpa ducimus, sapiente facere. Doloribus!</div>"
+    socBody.innerHTML="<div class='socModTexts'><br>A LinkedIn company page helps you network and prospect for quality sales leads, but it also establishes your public image on a global scale as a reputable and trustworthy organization.<br>To encourage and motivate students we keep sharing placement stories so that they can build connections and get inspired by their beloved seniors.</div>"
     socTitle.innerHTML = "VITrendz LinkedIn"
     socModBtn.href = "https://www.linkedin.com/company/vitrendz/"
-
+    socBtnInner.innerHTML = "Open LinkedIn"
 }
 
 tele.onclick = () =>
 {
     socBody.innerHTML="<div class='socModTexts'><br>Spam free discussion is hard to get in college like VIT. Join our telegram groups to get a total spam controlled discussion o the mention groups. Do check out, the information with the link. These groups are easier ways to meet and make new friends, not miss out on important information, and not be alone in achieving success.</div>"
     socTitle.innerHTML = "VITrendz Telegram"
-    socModBtn.href = "#"
+    socModBtn.href = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRXzLtndANurS0p9MC-9NCARPip0KGSBQOUiFsFgxmfTVNkAPZmI0iTs5LMPIBk0LMRXO_qI_IgwqKG/pubhtml"
+    socBtnInner.innerHTML = "Join Now"
 
 }
 
@@ -134,7 +136,7 @@ you.onclick = () =>
 
 what.onclick = () =>
 {
-    socBody.innerHTML="<div class='socModTexts'><br>The Beginnings of new semesters are tough. New peers, new faculty, new subject, and a whole new journey to begin diving deeper into the unexpected unknown. It is hard to go alone into the unknown without confirmation and support. Want to have better confidence by learning from others? Want to make things easier for you and others? We here at VITrendz, hear you. Check out this excel sheet where we create WhatsApp groups for different courses in different slots taken by different faculty members and students from VIT.<br><br>Do also check out Whatsapp groups made by VITrendz instep to encourage interaction among students</div>"
+    socBody.innerHTML="<div class='socModTexts'><br>The Beginnings of new semesters are tough. New peers, new faculty, new subject, and a whole new journey to begin diving deeper into the unexpected unknown. It is hard to go alone into the unknown without confirmation and support. Want to have better confidence by learning from others? Want to make things easier for you and others? We here at VITrendz, hear you. Check out this excel sheet where we create WhatsApp groups for different courses in different slots taken by different faculty members and students from VIT.<br><br>Do also check out Whatsapp groups made by VITrendz instep to encourage interaction among students. Do follow us on instagram for access to whatsapp community</div>"
     socTitle.innerHTML = "VITrendz WhatsApp"
     socModBtn.href = "https://t.ly/tQgn"
 
@@ -158,12 +160,12 @@ spoty.onclick = () =>
 }
 
 onlyCont.onclick = ()=>{
-        conBody.innerHTML="<br><div class='blueModal'>Have Technical Issues? <br>Finding it difficult to traverse through the website, or <br>Did you find a bug?</div><br><div class='pinkModal'>Email : <br><a href='mailto:help@vitrendz.tech'>help@vitrendz.tech</a><br></div><br><br><div class='blueModal'> Wanna Collaborate? </div><br> <div class='pinkModal'>Email : <br><a href = 'mailto:collaboration@vitrendz.tech'>collaboration@vitrendz.tech</a><br><br>Contact: </div><div class='lightblue'>+91 9445228496 &#40; CMO - Rishi Vandhanaa &#41;</div><br>"
+        conBody.innerHTML="<br><div class='blueModal'>Have Technical Issues? <br>Finding it difficult to traverse through the website, or <br>Did you find a bug?</div><br><div class='pinkModal'>Email : <br><a href='mailto:help@vitrendz.tech'>help@vitrendz.tech</a><br></div><br><br><div class='blueModal'> Wanna Collaborate? </div><br> <div class='pinkModal'>Email : <br><a href = 'mailto:collaboration@vitrendz.tech'>collaboration@vitrendz.tech</a><br><br><a href='mailto:rakshnahari@gmail.com'>rishiVandhanaa@vitrendz.tech</a> <br>&#40; Chief Marketing Officer - Rishi Vandhanaa &#41;<br><p style='font-size:10px;color:white'>Please click to mail</p></div>"
         conTitle.innerHTML = "<i class='far fa-handshake'></i> Contact Us"
     }
 
 sponsor.onclick = ()=>{
-        conBody.innerHTML="<br><div class='blueModal'>Sponsor Us to promote your product / brand among the huge population of VITians '('students in VIT')' and also to help us accomplish our vision and goals.</div><br><br><div class='pinkModal'>Email : <br><a href='mailto:sponsorsjip@vitrendz.tech'>sponsorship@vitrendz.tech</a><br><br>Contact: </div><div class='lightblue'>+91 9431586001 <br>&#40; Chief Finance Officer - Shwetanshu Shekhar &#41;</div><br>"
+        conBody.innerHTML="<br><div class='blueModal'>Sponsor Us to promote your product / brand among the huge population of VITians '('students in VIT')' and also to help us accomplish our vision and goals.</div><br><br><div class='pinkModal'>Email : <br><a href='mailto:sponsorsjip@vitrendz.tech'>sponsorship@vitrendz.tech</a><br><br>Contact: </div><div class='lightblue'><br><a href='mailto:shwetanshu2000@gmail.com'>shwetanshuShekhar@vitrendz.tech</a> <br>&#40; Chief Finance Officer - Shwetanshu Shekhar &#41;<br><p style='font-size:10px;color:white'>Please click to mail</p></div><br>"
         conTitle.innerHTML = "<i class='fas fa-hand-holding-usd'></i> Sponsor Us"
     }
 

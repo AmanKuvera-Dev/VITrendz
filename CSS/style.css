@@ -1628,7 +1628,7 @@ height:200px !important;
 }
 
 .icon-box{
-    border: 2px solid darkblue;
+    border: 2px solid white;
     border-radius: 20px;
     height: 80px !important;
     width:80px !important;
@@ -1639,7 +1639,6 @@ height:200px !important;
 .icon-box .fab{
     font-size: 30px;
     margin:22px auto;
-    color: darkblue;
     transform: rotate(-45deg)
 
 }
@@ -1647,7 +1646,6 @@ height:200px !important;
 .icon-box .fas{
     font-size: 30px;
     margin:22px auto;
-    color: darkblue;
     transform: rotate(-45deg)
 
 }
@@ -1664,3 +1662,42 @@ height:200px !important;
 .counter-box h2{
     font-size: 40px;
 }
+
+.instaCount{
+    color: #d92a78
+}
+
+.teleCount{
+    color: #0084c6
+
+}
+
+.whatCount{
+    color: #4dc85a
+    
+}
+
+.disCount{
+    color: #6e85d2
+    
+}
+
+.linkCount{
+    color: #0073af
+    
+}
+
+.spotiCount{
+    color: #1cb351
+    
+}
+
+.tubeCount{
+    color: #f70000
+}
+
+.reachCount{
+    color: #6626b5
+    
+}
+
