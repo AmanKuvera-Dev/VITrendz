@@ -713,13 +713,13 @@ blockquote::after {
 }
 
 .aboutUsTitle1 h6{
-    font-family: ;
+    font-family: 'Acme', sans-serif;
     font-weight: 700;
     color: #DB1F48;
 }
 
 .aboutUsTitle2 h1{
-    font-family: ;
+    font-family: 'Acme', sans-serif;
     font-weight: 700;
     color:#0C2D48 ;
 }
