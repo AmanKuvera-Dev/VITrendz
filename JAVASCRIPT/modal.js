@@ -126,7 +126,7 @@ tele.onclick = () =>
 
 you.onclick = () =>
 {
-    socBody.innerHTML="<div class='socModTexts'><br>Youtube Text</div><br><br><div class='modBtnYou'><a href='youtube.html' style='text-decoration:none!important' target='_self'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
+    socBody.innerHTML="<div class='socModTexts'><br>Youtube Text</div><br><br><div class='modBtnYou'><a href='underConstruction.html' style='text-decoration:none!important' target='_self'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
     socTitle.innerHTML = "VITrendz Youtube"
     socModBtn.href = "https://www.youtube.com/channel/UCmAwtdi2YTCA_ifMlx0yIDA/"
     socBtnInner.innerHTML = "Open Youtube"
