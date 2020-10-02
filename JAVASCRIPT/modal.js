@@ -126,7 +126,7 @@ tele.onclick = () =>
 
 you.onclick = () =>
 {
-    socBody.innerHTML="<div class='socModTexts'><br>Video can a thousand words in one second, ranging from general information to technical video we at VITrendz channel promote the importance and use of multimedia through our youtube channel.<br>Make sure to subscribe to our channel to get tuned with all trending technical knowledge and see all the rising talents in our college.</div><br><br><div class='modBtnYou'><a href='youtube.html' style='text-decoration:none!important' target='_self'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
+    socBody.innerHTML="<div class='socModTexts'><br>Video can a thousand words in one second, ranging from general information to technical video we at VITrendz channel promote the importance and use of multimedia through our youtube channel.<br>Make sure to subscribe to our channel to get tuned with all trending technical knowledge and see all the rising talents in our college.</div><br><br><div class='modBtnYou'><a href='youTube.html' style='text-decoration:none!important' target='_self'><button type='button' class='btn btn-success modButSocYou'>Open here</button></a></div> "
     socTitle.innerHTML = "VITrendz Youtube"
     socModBtn.href = "https://www.youtube.com/channel/UCmAwtdi2YTCA_ifMlx0yIDA/"
     socBtnInner.innerHTML = "Open Youtube"
