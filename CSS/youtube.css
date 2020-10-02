@@ -3,6 +3,15 @@
     margin-bottom: 20px
 }
 
+.colli p,.colli h6{
+    color:white
+}
+
+.colli h6{
+    color:white;
+    margin-top: 20px!important;
+}
+
 .myRows{
     margin-top: 50px
 }
@@ -16,17 +25,43 @@
 }
 
 
-.suggestionForm h1{
-    text-align: center;
-}
 
 .YTcollabInfo h1{
     text-align: center;
 }
 
 @media(max-width:1200px){
-iframe{
+iframe,.agliBaarImg{
     width:280px !important;
     height:180px !important;
 }
 }
+
+.YTcollabInfo h5{
+    text-align: center;
+    color: red;
+}
+
+.YTcollabInfo h5 a{
+    text-decoration: none;
+    
+}
+
+.YTcollabInfo h6{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to right,rgba(247,0,2,0.7),rgba(63,88,107,0.7))
+}
+
+#youtubeBody{
+    background-color: #0C2D48 !important;
+    border: 2px white solid;
+}
+
+.YTcollabInfo {
+   background-color: #B1D4E0 !important;
+    border: 2px white solid;
+}
+
